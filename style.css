@@ -1,9 +1,9 @@
 :root {
-    --foreground:#ebbcba;
-    --background: #191724;
-    --selection-foreground: #9ccfd8;
-    --selection-background: #ebbcba;
-    --url-color: #B7BDF8;
+    --foreground:#fffaf3;
+    --background: #faf4ed;
+    --selection-foreground: #575279;
+    --selection-background: #9893a5;
+    --url-color: #b4637a;
     
     --inactive-border-color: #ebbcba;
     
@@ -15,20 +15,19 @@
     --inactive-tab-background: #1E2030;
     --tab-bar-background: #181926;
    
-    --surface-1: #26233a;
-    --surface-2: #6e6a86;
-    --surface-3: #6e6a86;
-    --surface-4: #FFFFFF44;
-    --black: #191724;
-    --purple: #c4a7e7;
-    --red: #eb6f92;
-    --green: #9ccfd8;
-    --yellow: #EED49F;
-    --gold: #f6c177;
-    --magenta: #ebbcba;
-    --cyan: #31748f;
-    --white: #e0def4;
-    --grey:#f6c177;
+    --surface-1: #f2e9e1;
+    --surface-2: #f4ede8;
+    --surface-3: #dfdad9;
+    --surface-4: #cecacd;
+    --black: #575279;
+    --purple: #907aa9;
+    --red: #b4637a;
+    --green: #56949f;
+    --gold: #ea9d34;
+    --pink: #d7827e;
+    --blue: #286983;
+    --white: #fffaf3;
+    --grey:#797593;
 }
 html {
     height: 100%;
