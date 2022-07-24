@@ -1,0 +1,140 @@
+:root {
+    --foreground:#ebbcba;
+    --background: #191724;
+    --selection-foreground: #9ccfd8;
+    --selection-background: #ebbcba;
+    --url-color: #B7BDF8;
+    
+    --inactive-border-color: #ebbcba;
+    
+    --bell-border-color: #EE99A0;
+    
+    --active-tab-foreground: #181926;
+    --active-tab-background: #C6A0F6;
+    --inactive-tab-foreground: #CAD3F5;
+    --inactive-tab-background: #1E2030;
+    --tab-bar-background: #181926;
+   
+    --surface-1: #26233a;
+    --surface-2: #6e6a86;
+    --surface-3: #6e6a86;
+    --surface-4: #FFFFFF44;
+    --black: #191724;
+    --purple: #c4a7e7;
+    --red: #eb6f92;
+    --green: #9ccfd8;
+    --yellow: #EED49F;
+    --gold: #f6c177;
+    --magenta: #ebbcba;
+    --cyan: #31748f;
+    --white: #e0def4;
+    --grey:#f6c177;
+}
+html {
+    height: 100%;
+    margin: 0px;
+    overflow: 'hidden';
+}
+body {
+    background-color: var(--background);
+    color: var(--white);
+    height: 100%;
+    margin: 0px;
+    position: relative;
+    overflow: 'hidden';
+}
+h1 {
+    color: var(--purple);
+    font-variant: small-caps;
+    padding: 20px;
+}
+main {
+    text-align: center;
+    height: 100%;
+    overflow: 'hidden';
+    margin: 0px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: var(--white);
+    margin-top: 5px;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+    height: 80%;
+    overflow: 'hidden';
+    margin: 0px;
+    flex: 1;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-width: 300px;
+    border: solid 2px var(--gold);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    min-height: 420;
+}
+.column > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    min-height: 80px;
+    padding: 10px 25px 10px 25px;
+    border: solid 0px black;
+    border-radius: 10px;
+    background-color: var(--surface-1);
+    margin: 5px 5px 0px 5px;
+    text-align: center;
+    overflow:hidden;
+}
+
+.column > div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+h3 {
+    color: var(--purple);
+    text-transform: uppercase;
+    font-variant: small-caps;
+}
+
+h4 {
+    margin: 0px;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    left: 3px;
+    top: 7px;
+    writing-mode: vertical-rl;
+    color: var(--surface-4);
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+#elf-image {
+    float: left;
+	margin-left: 10%;
+	max-width: 25%;
+	max-height: 70%;
+	border-radius: 2%;
+}
