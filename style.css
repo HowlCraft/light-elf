@@ -43,7 +43,7 @@ body {
     overflow: 'hidden';
 }
 h1 {
-    color: var(--purple);
+    color: var(--blue);
     font-variant: small-caps;
     padding: 20px;
 }
@@ -81,7 +81,7 @@ a, a:hover {
     flex-wrap: wrap;
     flex-direction: column;
     min-width: 300px;
-    border: solid 2px var(--gold);
+    border: solid 2px var(--red);
     border-radius: 10px;
     padding-bottom: 10px;
     overflow: hidden;
