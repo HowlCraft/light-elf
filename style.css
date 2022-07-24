@@ -9,9 +9,9 @@
     
     --bell-border-color: #EE99A0;
     
-    --active-tab-foreground: #181926;
+    --active-tab-foreground: #575279;
     --active-tab-background: #C6A0F6;
-    --inactive-tab-foreground: #CAD3F5;
+    --inactive-tab-foreground: #575279;
     --inactive-tab-background: #1E2030;
     --tab-bar-background: #181926;
    
@@ -27,7 +27,7 @@
     --pink: #d7827e;
     --blue: #286983;
     --white: #fffaf3;
-    --grey:#797593;
+    --grey:#575279;
 }
 html {
     height: 100%;
@@ -36,7 +36,7 @@ html {
 }
 body {
     background-color: var(--background);
-    color: var(--white);
+    color: var(--grey);
     height: 100%;
     margin: 0px;
     position: relative;
@@ -56,7 +56,7 @@ main {
 
 a, a:hover {
     text-decoration: none;
-    color: var(--white);
+    color: var(--blue);
     margin-top: 5px;
 }
 
@@ -125,7 +125,7 @@ h4 {
     left: 3px;
     top: 7px;
     writing-mode: vertical-rl;
-    color: var(--surface-4);
+    color: var(--green);
     text-transform: uppercase;
     font-size: 17px;
 }
